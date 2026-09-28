@@ -11,8 +11,8 @@ class Solution(object):
             temp = divisor
             multiple = 1
 
-            while dividend >= temp + temp:
-                temp = temp + temp
+            while dividend >=temp+temp:
+                temp=temp+temp
                 multiple = multiple + multiple
 
             dividend = dividend - temp
